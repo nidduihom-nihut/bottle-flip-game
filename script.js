@@ -12,8 +12,11 @@ print(answer + " Answer dibo")
 
 */
 
+
+
+
 function td() {
-    const players = ['Ahammok', 'Taspin', 'Yeasmin', 'Dim', 'Lobon', 'Tuni'];
+    const players = ['Mehjabin', 'Tasmin', 'Yeasin', 'Mim', 'Labonno', 'Tuhinn'];
 
 
 
@@ -24,7 +27,7 @@ function td() {
 
     
 
-    const ansPlayers = ['Ahammok', 'Taspin', 'Yeasmin', 'Dim', 'Lobon', 'Tuni'];
+    const ansPlayers = ['Mehjabin', 'Tasmin', 'Yeasin', 'Mim', 'Labonno', 'Tuhinn'];
     const random = Math.floor(Math.random() * ansPlayers.length)
     var c=(random, players[random]);
     document.getElementById("ans").innerHTML=c;
